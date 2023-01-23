@@ -1,6 +1,6 @@
 #!/bin/bash
 
-services=(radarr, sonarr, jackett, qbittorrent, jellyfin)
+services=(radarr sonarr jackett qbittorrent jellyfin)
 
 for service in ${services[@]}
 do
